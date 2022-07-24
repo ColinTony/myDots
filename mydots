@@ -1,0 +1,52 @@
+sudo apt-get  install bspwm sxhkd polybar rofi zsh kitty picom dunst gtk3-engines-breeze gnome-themes-extra alsa alsa-utils feh volumeicon-alsa volume-key brightnessctl bluetooth i3lock-color sddm yad cockpit-networkmanager cava xclip pulseaudio pulseaudio-utils pulseaudio-module-bluetooth xcolors mpd ncmpcpp mpc zathura xfce4-power-manager viewnior maim
+
+sudo apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+
+sudo apt update
+
+sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+
+
+sudo apt 
+
+PolyBar-Theme-Forest
+
+
+git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+cd polybar-themes
+chmod +x setup.sh
+
+// seleccionar 1 simple
+
+picom 
+
+git clone https://github.com/ibhagwan/picom.git
+cd picom/
+git submodule update --init --recursive
+meson --buildtype=release . build
+ninja -C build
+
+
+
+git clone https://github.com/VaughnValle/blue-sky.git
+
+
+simlock
+git clone https://github.com/joelburget/slimlock.git
+cd slimlock/
+sudo make
+sudo make install
+
+sudo cp slim.conf /etc/
+sudo cp slimlock.conf /etc
+sudo cp -r default /usr/share/slim/themes
+
+powrlevel10k
+
+zsh
+
+bat lsd fzf 
+
+
+
+shared , 
